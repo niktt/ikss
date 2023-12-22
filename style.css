@@ -1,6 +1,5 @@
 /* Стили для шапки */
 header {
-  background:linear-gradient( rgb(50, 50, 50), rgb(47, 47, 47));
   color: #fff;
   padding: 5px -50px;
   display: flex;
@@ -48,8 +47,8 @@ nav a:hover {
 
 body {
   /* Основной цвет фона */
-  background: rgb(30, 30, 30);
-  background: linear-gradient( rgb(50, 50, 50), rgb(30, 30, 30)); 
+  background: rgb(188,134,17);
+  background: linear-gradient(0deg, rgba(188,134,17,1) 0%, rgba(32,32,32,1) 100%);
   background-attachment:fixed;
   width: 85%; 
   margin-left:auto; 
@@ -209,7 +208,6 @@ right: 10px;
  
 /* Стили контактов */
 footer {
-  background-color: #1e1e1e; /* Цвет фона */
   color: #fff; /* Цвет текста */
   padding: 10px 0;
   text-align: center;
